@@ -9,7 +9,7 @@ export function TaskListPage({
 
     const { theme } = useUI()
     return (<div>
-        <Header title="TaskFlow" description="Gérez vos tâches avec TaskFlow" />
+        <Header title="TaskFlow React v2" description="Gérez vos tâches avec TaskFlow" />
         <AddTaskForm onAddTask={handleAddTask} />
 
         <div>Theme: {theme}</div>
